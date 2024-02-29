@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+
+body {
+    font-family: Roboto, sans-serif;
+    
+}
+main {
+    margin: 30px 5px;
+    background-color: rgb(249, 247, 247);
+    padding: 20px 10px;
+    border-radius: 5px;
+    color: rgb(53, 49, 49);
+}
+
+h1, .caption, #img-caption, .intro, #more-info {
+    text-align: center;
+    font-size: 1.2rem;
+}
+h1 {
+    font-size: 2.6rem;
+}
+
+#img-div {
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#img-caption {
+    padding: 15px;
+    font-size: 0.95rem;
+}
+
+#tribute-info {
+    width: 40%;
+    margin: 50px auto;
+}
+
+.intro {
+    margin-bottom: 50px;
+}
+
+
+li {
+    margin: 20px 0;
+}
+
+.aside {
+    margin: 50px auto;
+}
+
+#more-info a{
+    cursor: pointer;
+    color: rgb(134, 127, 171);
+}
+
+
+@media screen and (max-width:800px) and (min-width:200px) {
+    #tribute-info {
+        width: 90%;
+    }
+}
